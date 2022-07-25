@@ -13,7 +13,7 @@ class HornedBeast extends React.Component {
     voteClick = () => this.setState({ favorites: this.state.favorites + 1 });
     render() {
         return (
-            <Card style={{ width: '18rem' }} className="beast">
+            <Card style={{ width: '18rem' }} className="h-100">
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Text>{this.props.description}</Card.Text>
